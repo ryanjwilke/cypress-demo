@@ -1,4 +1,12 @@
 {
+  "name": "Cypress Demo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Ryan Wilke",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
   "dependencies": {
     "cypress": "^10.3.1"
   }
