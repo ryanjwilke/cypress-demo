@@ -1,6 +1,6 @@
 describe('Homepage', () => {
   it('visit homepage', () => {
-    cy.viewport(1280, 720)
+    cy.viewport(1280, 1040)
     cy.visit('https://stripe.com/en-us')
     cy.get('[data-js-target="CookieSettingsNotificationRejectAll.rejectAllButton"]').click()
     cy.wait(1000)
