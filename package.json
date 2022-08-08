@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Ryan Wilke",
   "scripts": {
-    "cy:open": "cypress open",
+    "cy:open": "cypress open --e2e --browser electron",
     "cy:run": "cypress run"
   },
   "devDependencies": {
